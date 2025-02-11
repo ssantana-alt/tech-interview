@@ -18,6 +18,12 @@ input[type="text"] {
   padding: 5px;
 }
 
-.todo--done {
+.todo {
+  display: grid;
+  grid-template-columns: 25px 1fr 25px;
+  gap: 8px;
+}
+
+.todo--done :not(button) {
   text-decoration: line-through;
 }

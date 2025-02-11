@@ -2,4 +2,8 @@
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 8px;
+
+  button {
+    font-size: 18px;
+  }
 }

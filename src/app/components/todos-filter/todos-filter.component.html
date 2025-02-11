@@ -1,0 +1,14 @@
+<form [formGroup]="filterForm">
+  <label for="all">
+    <input type="radio" formControlName="filter" value="all" id="all" />
+    <span>All</span>
+  </label>
+  <label for="pending">
+    <input type="radio" formControlName="filter" value="pending" id="pending" />
+    <span>Pending</span>
+  </label>
+  <label for="done">
+    <input type="radio" formControlName="filter" value="done" id="done" />
+    <span>Done</span>
+  </label>
+</form>
