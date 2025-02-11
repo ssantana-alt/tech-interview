@@ -1,10 +1,11 @@
+import { CommonModule } from "@angular/common";
 import { Component } from "@angular/core";
 import { FormControl, FormGroup, ReactiveFormsModule } from "@angular/forms";
 
 @Component({
   selector: "app-todos-filter",
   standalone: true,
-  imports: [ReactiveFormsModule],
+  imports: [CommonModule, ReactiveFormsModule],
   templateUrl: "./todos-filter.component.html",
   styleUrl: "./todos-filter.component.scss",
 })
