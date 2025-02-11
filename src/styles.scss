@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  gap: 8px;
+}
+
+input[type="text"] {
+  font-size: 22px;
+  padding: 5px;
+}
+
+.todo-list {
+  display: grid;
+  gap: 8px;
+  padding: 5px;
+}
+
+.todo--done {
+  text-decoration: line-through;
+}
